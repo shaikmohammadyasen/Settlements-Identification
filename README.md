@@ -16,5 +16,22 @@ erate feature maps of varying sizes (38×38, 19×19, 10×10, etc.) for multi-sca
  followed by Non-Maximum Suppression (NMS) to refine predictions. While VGG16-based
  SSD delivers better accuracy, MobileNetv2-based SSD offers faster inference and efficiency,
  making it ideal for resource-constrained environments.
- 
+ # Dataset Collection
+ Dataset Name: Settlements identification
+ Source: Self-collected through Bh¯ uvan and Bhoonidhi portals using geographic coordinates
+ Size: 3GB
+ # Settlements Information:
+ Fields: Settlement ID, Coordinates (latitude, longitude), Region, Settlement Type (e.g.,
+ residential, temporary camps), Environment Type (urban, rural), etc.
+ Description: Contains detailed information about various types of settlements identified
+ in satellite images, each tagged with a unique identifier, geographic location, type, and sur
+rounding environmental context. This provides a comprehensive foundation for identifying
+ both permanent and temporary human-occupied regions.
+ # Region-Specific Details:
+ Fields: Region ID, Region Type (e.g., urban, border, forested), Coordinates, Additional
+ Notes
+ Description:  Data on specific regions associated with each settlement type, noting unique
+ characteristics that could influence settlement detection (e.g., seasonal changes or nearby
+ facilities). These annotations add contextual information for improving model accuracy in
+ various environments.
  
